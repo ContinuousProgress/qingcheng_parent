@@ -7,6 +7,7 @@ import com.qingcheng.entity.PageResult;
 import com.qingcheng.entity.Result;
 import com.qingcheng.pojo.goods.Brand;
 import com.qingcheng.service.goods.BrandService;
+import org.omg.CORBA.DynAnyPackage.Invalid;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -35,6 +36,7 @@ public class BrandController {
     public List<Brand> findList( @RequestBody Map searchMap){
         return brandService.findList(searchMap);
     }
+
 
     @PostMapping("/findPage")
     public PageResult<Brand>  findPage(@RequestBody Map searchMap,int page,int size ){
