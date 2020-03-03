@@ -1,0 +1,4 @@
+0:0:0:0:0:0:0:1 - - [20/Feb/2020:12:42:30 +0800] "GET /brand/findAll.do HTTP/1.1" 200 1341 http-bio-9101-exec-1 8178
+0:0:0:0:0:0:0:1 - - [20/Feb/2020:12:44:33 +0800] "GET /brand/findAll.do HTTP/1.1" 200 13821 http-bio-9101-exec-1 572
+0:0:0:0:0:0:0:1 - - [20/Feb/2020:12:54:00 +0800] "GET /brand/findPage.do?page=1&size=10 HTTP/1.1" 200 735 http-bio-9101-exec-1 518
+0:0:0:0:0:0:0:1 - - [20/Feb/2020:12:54:10 +0800] "GET /brand/findPage.do?page=2&size=10 HTTP/1.1" 200 925 http-bio-9101-exec-3 24
